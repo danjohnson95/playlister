@@ -1,0 +1,52 @@
+body{
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
+}
+
+input, select, button, textarea, body{
+	-webkit-font-smoothing: antialiased;
+	font-family: 'HelveticaNeue', 'Arial', sans-serif;
+	font-size: 16px;
+	color: #191414;
+	background-color: transparent;
+	border: 0;
+	outline: 0;
+}
+
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(25,20,20,.6);
+	/*background-color: #6d25d5;*/
+	color: #fff;
+	padding: .5em 0;
+	font-size: .9em;
+	font-weight: bold;
+	z-index: 9;
+}
+
+header .container{
+	display: flex;
+}
+
+header .logo{
+	line-height: 2.3;
+}
+
+header button img{
+	width: 25px;
+}
+
+.container{
+	padding: 0 1em;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+footer{
+	background-color: #000;
+	padding: 1em 0;
+}
